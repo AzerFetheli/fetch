@@ -1,0 +1,21 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap:1rem;
+    flex-wrap: wrap;
+}
+.product{
+    width: 23%;
+    height: 460px;
+    border: 1px solid black;
+}
+.product >.picture {
+    width: 100%;
+    height: 200px;
+    
+}
+.product> .picture>img{
+    width: 100%;
+height: 100%;
+}
